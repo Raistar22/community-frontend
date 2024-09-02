@@ -1,0 +1,39 @@
+/* Import the old British font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.login-form {
+  background-color: #fff; /* White background for form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px; /* Set max width for the form */
+}
+
+.login-form h2 {
+  font-family: 'Garamond', serif; /* Apply old British font */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form label {
+  font-family: 'Garamond', serif; /* Apply old British font */
+}
+
+.login-form input {
+  font-family: 'Garamond', serif; /* Apply old British font */
+}
+
+.login-form button {
+  margin-top: 20px;
+}
+
+  

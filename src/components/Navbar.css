@@ -1,0 +1,59 @@
+/* Import the old British font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+
+.navbar {
+  background-color: #1976d2; /* MUI primary color */
+  box-shadow: none; /* Remove shadow for a cleaner look */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.navbar-toolbar {
+  min-height: 48px; /* Make the navbar thin */
+}
+
+.menu-button {
+  margin-right: 20px;
+  transition: transform 0.3s ease; /* Smooth transition for logo scale */
+}
+
+.logo {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Ensure height matches width for circular shape */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+.title-button {
+  text-transform: none; /* Remove uppercase transformation */
+  padding: 0; /* Remove padding */
+}
+
+.title {
+  font-family: 'Garamond', serif; /* Apply old British font */
+  font-size: 1.25rem; /* Adjust size as needed */
+  color: #fff; /* White text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.title-button:hover .title {
+  color: #ffeb3b; /* Change color on hover */
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links .MuiButton-root {
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for button color and hover effect */
+}
+
+.navbar-links .MuiButton-root:hover {
+  color: #ffeb3b; /* Change color on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}

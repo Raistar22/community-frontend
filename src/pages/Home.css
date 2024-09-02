@@ -1,0 +1,83 @@
+/* Import the old British font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+
+/* Parallax background */
+.parallax {
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.parallax-home {
+  height: 300px; /* Adjust height as needed */
+  background-image: url('https://your-image-url.com/path-to-background-image.jpg');
+}
+
+/* Container styling */
+.home-container {
+  padding: 20px;
+  background-color: #9bc0eb; /* Light background for better readability */
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.welcome-section h1 {
+  font-family: 'Garamond', serif; /* Apply old British font */
+}
+
+.welcome-section h5 {
+  font-family: 'Garamond', serif; /* Apply old British font */
+  color: #555; /* Slightly lighter color for secondary text */
+}
+
+.section-paper {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  background-color: #bfe7eb; /* White background for paper sections */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enhanced shadow */
+  animation: slideIn 1s ease-in-out, fadeIn 1s ease-in-out; /* Multiple animations */
+}
+
+/* Animation for sections */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.section-transition {
+  animation: bounceIn 1s ease-out;
+}

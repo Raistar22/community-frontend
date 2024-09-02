@@ -1,0 +1,17 @@
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .whatsapp-button .MuiButton-root {
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    font-weight: bold;
+  }
+  
+  .whatsapp-button .MuiButton-root:hover {
+    background-color: #1ebe5b; /* Darker green for hover effect */
+  }
+  

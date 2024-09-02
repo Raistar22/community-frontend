@@ -1,0 +1,21 @@
+.social-media-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-media-icons .MuiIconButton-root {
+    font-size: 2rem;
+  }
+  
+  .social-media-container h6 {
+    font-weight: bold;
+    color: #0a0d0f; /* MUI primary color */
+  }
+  
